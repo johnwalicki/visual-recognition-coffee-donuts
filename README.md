@@ -65,4 +65,4 @@ In this section you will use sample images to confirm your model.
 Let's get started - [Set up Watson Studio](STUDIO.md)
 
 *Quick links :*
-[Home](/README.md) - [**Coffee**](COFFEE.md) - [Watson Studio](STUDIO.md) - [Visual Recognition Model](VISRECO.md) - [Test and Deploy](VRMTEST.md)
+[Home](/README.md) - [Watson Studio](STUDIO.md) - [Visual Recognition Model](VISRECO.md) - [Test and Deploy](VRMTEST.md)
