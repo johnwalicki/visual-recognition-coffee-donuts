@@ -56,9 +56,47 @@ Projects are your workspace to organize your resources, such as assets like data
 
 ![Watson Studio Welcome screenshot](screenshots/WatsonStudio-Welcome.png)
 
-- Select the **Visual Recognition** tile and press the **Create Project** button
+- Select the **Create an empty project** tile
 
 ![Watson Studio New project screenshot](screenshots/WatsonStudio-CreateNewProject.png)
+
+- Give your Project a name : **Coffee or Donuts**
+- Click on **Add** to define a Cloud Object Storage instance
+
+![Watson Studio New project screenshot](screenshots/WatsonStudio-NewProject.png)
+
+#### Create Cloud Object Storage
+- You will store images and training data in a Cloud Object Storage bucket
+- Select the **Lite** plan and note the features
+- Scroll to the bottom and click on the **Create** button and then **Confirm** to create a Cloud Object Storage instance.
+
+![Cloud Object Storage Service screenshot](screenshots/CloudObjectStorage-Service.png)
+
+
+- Click on **Refresh** on the New Project tab.
+- Click on **Create** to create the new project.
+
+![Watson Studio New project screenshot](screenshots/WatsonStudio-NewProject-Continue.png)
+
+- Click on **Add to project**
+
+![Watson Studio Add to Project screenshot](screenshots/WatsonStudio-Project-Add2Project.png)
+
+- Select **Image classification model** on the **Choose asset type** popup.
+
+![Watson Studio Add Image Classification screenshot](screenshots/WatsonStudio-Project-AddImageClassification.png)
+
+#### Provision a new Watson Visual Recognition Service instance
+- Your project needs to be associated with a Watson Visual Recognition Service instance
+- Click on the **click here** link in the popup to Associate a Watson Visual Recognition service.
+
+![Watson Studio Associate Watson Visual Recognition screenshot](screenshots/WatsonStudio-Project-AssociateVisualRecognition.png)
+
+#### Create a Watson Visual Recognition Service
+- Select the **Lite** plan and note the features
+- Scroll to the bottom and click on the **Create** button
+
+![Watson Visual Recognition New Service Instance screenshot](screenshots/WatsonStudio-VisualRecognitionServiceInstance.png)
 
 - Select a region for Visual Recognition
 
@@ -67,14 +105,6 @@ Projects are your workspace to organize your resources, such as assets like data
 - Watson Studio will spin for a few seconds while **Preparing Watson Studio** project.  New instances of Watson Visual Recognition and Cloud Object Storage will be created.
 
 ![Watson Studio Select Region screenshot](screenshots/WatsonStudio-PrepareProject-COS.png)
-
-- Give your Project a name : **Coffee or Donuts**
-- The new Cloud Object Storage instance will be prefilled.
-- The new Watson Visual Recognition service instance will be prefilled.
-
-- Press the **Create** button
-
-![Watson Studio New project screenshot](screenshots/WatsonStudio-NewProject.png)
 
 You are ready to set up your Project with Watson Visual Recognition. Proceed to the next [step](VISRECO.md)
 

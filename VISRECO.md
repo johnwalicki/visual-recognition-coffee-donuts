@@ -19,7 +19,7 @@ Projects are your workspace to organize your resources, such as assets like data
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelRename1.png)
 
-- Rename the model to **CoffeeorDonuts**
+- Rename the model to **Coffee or Donuts**
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelRename2.png)
 
@@ -44,7 +44,7 @@ Projects are your workspace to organize your resources, such as assets like data
 
 - Add a third custom class by clicking on the **+** symbol again
 
-- Name this class **Rescue boat**
+- Name this class **Donut**
 - Click the **Create** button
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelDonutsClass3.png)
@@ -82,9 +82,7 @@ Projects are your workspace to organize your resources, such as assets like data
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelZipFile2DonutClass.png)
 
-[//] # - Grab the **suburban-neighborhood.zip** from the right navigation and drag it to the **Negative** class
-
-[//] # ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelZipFile2NegativeClass.png)
+- This custom classifier does not contain a **Negative** zip file.  It is recommended but not required.
 
 #### Train your Watson Visual Recognition Custom Classifier
 - Click on the **Train Model** button

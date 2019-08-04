@@ -57,7 +57,7 @@ In the IBM Cloud Dashboard, search for and open your instance of *Watson Visual 
 - **Classify an image (GET)**
 
   ```
-  curl -u "apikey:{apikey}" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?url=https://watson-developer-cloud.github.io/doc-tutorial-downloads/visual-recognition/fruitbowl.jpg&version=2018-03-19&classifier_ids=CofCoffeeorDonuts_418020421"
+  curl -u "apikey:{apikey}" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?url=https://watson-developer-cloud.github.io/doc-tutorial-downloads/visual-recognition/fruitbowl.jpg&version=2018-03-19&classifier_ids=CoffeeorDonuts_418020421"
   ```
 
 - **Classify an image (POST)**
@@ -70,7 +70,6 @@ In the IBM Cloud Dashboard, search for and open your instance of *Watson Visual 
   You have completed the Coffee or Donuts Visual Recognition Lab and have identified Coffee Bags, Coffee Mugs and yummy donuts.
 
 ### Visual Recognition - Additional References
-- [Call for Code Visual Recognition](https://developer.ibm.com/callforcode/resources/visual-recognition/)
 - [Locate and count items with object detection](https://developer.ibm.com/code/patterns/locate-and-count-items-with-object-detection/)
 - [MAX Object Detection](https://developer.ibm.com/exchanges/models/all/max-object-detector/)
 
