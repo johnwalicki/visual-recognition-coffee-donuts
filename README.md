@@ -20,7 +20,7 @@ After completing this tutorial you will be able to:
 
 This tutorial can be completed using an IBM Cloud Lite account.
 
-* Create an [IBM Cloud account](https://cloud.ibm.com/registration)
+* Create an [IBM Cloud account](http://ibm.biz/ossnacoffeelab)
 * Log into [IBM Cloud](https://cloud.ibm.com/login)
 
 ## Estimated time
@@ -58,7 +58,7 @@ In this section, we will create a Watson Studio account, create a Project and Wa
 In this section you will use sample images to confirm your model.
 - Test your model - follow these [instructions](VRMTEST.md)
 
-## Step 5 - Implement this model in your Application
+## Step 4 - Implement this model in your Application
 
 - Embed your model into an application using these code snippets
 
