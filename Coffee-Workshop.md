@@ -20,7 +20,7 @@ After completing this tutorial you will be able to:
 
 This tutorial can be completed using an IBM Cloud Lite account.
 
-* Create an [IBM Cloud account](http://ibm.biz/ossnacoffeelab)
+* Create an [IBM Cloud account](http://ibm.biz/devweekcode4coffee)
 * Log into [IBM Cloud](https://cloud.ibm.com/login)
 
 ## Estimated time
@@ -143,7 +143,7 @@ Projects are your workspace to organize your resources, such as assets like data
 ![Watson Studio Add to Project screenshot](screenshots/WatsonStudio-Project-Add2Project.png)
 
 <div style="page-break-after: always;"></div>
-- Select **Image classification model** on the **Choose asset type** popup.
+- Select **Visual Recognition model** on the **Choose asset type** popup.
 
 ![Watson Studio Add Image Classification screenshot](screenshots/WatsonStudio-Project-AddImageClassification.png)
 

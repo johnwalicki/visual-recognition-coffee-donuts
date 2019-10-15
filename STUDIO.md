@@ -82,7 +82,7 @@ Projects are your workspace to organize your resources, such as assets like data
 
 ![Watson Studio Add to Project screenshot](screenshots/WatsonStudio-Project-Add2Project.png)
 
-- Select **Image classification model** on the **Choose asset type** popup.
+- Select **Visual Recognition model** on the **Choose asset type** popup.
 
 ![Watson Studio Add Image Classification screenshot](screenshots/WatsonStudio-Project-AddImageClassification.png)
 
