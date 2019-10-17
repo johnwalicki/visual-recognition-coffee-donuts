@@ -86,6 +86,11 @@ Projects are your workspace to organize your resources, such as assets like data
 
 ![Watson Studio Add Image Classification screenshot](screenshots/WatsonStudio-Project-AddImageClassification.png)
 
+- Select **Classify Images** on the **Custom Models** page.
+
+![Watson Studio Classify Image Custom Model screenshot](screenshots/WatsonStudio-Project-ClassifyImagesCustomModel.png)
+
+
 #### Provision a new Watson Visual Recognition Service instance
 - Your project needs to be associated with a Watson Visual Recognition Service instance
 - Click on the **click here** link in the popup to Associate a Watson Visual Recognition service.
