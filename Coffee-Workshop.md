@@ -20,7 +20,7 @@ After completing this tutorial you will be able to:
 
 This tutorial can be completed using an IBM Cloud Lite account.
 
-* Create an [IBM Cloud account](http://ibm.biz/devweekcode4coffee)
+* Create an [IBM Cloud account](http://ibm.biz/osseucoffeelab)
 * Log into [IBM Cloud](https://cloud.ibm.com/login)
 
 ## Estimated time
@@ -133,23 +133,27 @@ Projects are your workspace to organize your resources, such as assets like data
 ![Cloud Object Storage Service screenshot](screenshots/CloudObjectStorage-Service.png)
 
 <div style="page-break-after: always;"></div>
+
+- Watson Studio will spin for a few seconds while **Preparing Watson Studio** project.  New instances of Watson Visual Recognition and Cloud Object Storage will be created.
+
+![Watson Studio Select Region screenshot](screenshots/WatsonStudio-PrepareProject-COS.png)
+
 - Click on **Refresh** on the New Project tab.
 - Click on **Create** to create the new project.
 
 ![Watson Studio New project screenshot](screenshots/WatsonStudio-NewProject-Continue.png)
 
+<div style="page-break-after: always;"></div>
+
 - Click on **Add to project**
 
 ![Watson Studio Add to Project screenshot](screenshots/WatsonStudio-Project-Add2Project.png)
 
-<div style="page-break-after: always;"></div>
 - Select **Visual Recognition model** on the **Choose asset type** popup.
 
 ![Watson Studio Add Image Classification screenshot](screenshots/WatsonStudio-Project-AddImageClassification.png)
 
-- Select **Classify Images** on the **Custom Models** page.
-
-![Watson Studio Classify Image Custom Model screenshot](screenshots/WatsonStudio-Project-ClassifyImagesCustomModel.png)
+<div style="page-break-after: always;"></div>
 
 #### Provision a new Watson Visual Recognition Service instance
 - Your project needs to be associated with a Watson Visual Recognition Service instance
@@ -158,6 +162,7 @@ Projects are your workspace to organize your resources, such as assets like data
 ![Watson Studio Associate Watson Visual Recognition screenshot](screenshots/WatsonStudio-Project-AssociateVisualRecognition.png)
 
 <div style="page-break-after: always;"></div>
+
 #### Create a Watson Visual Recognition Service
 - Select the **Lite** plan and note the features
 - Scroll to the bottom and click on the **Create** button
@@ -165,17 +170,19 @@ Projects are your workspace to organize your resources, such as assets like data
 ![Watson Visual Recognition New Service Instance screenshot](screenshots/WatsonStudio-VisualRecognitionServiceInstance.png)
 
 <div style="page-break-after: always;"></div>
+
 - Select a region for Visual Recognition
 
 ![Watson Studio Select Region screenshot](screenshots/WatsonStudio-NewProject-SelectRegion.png)
 
-- Watson Studio will spin for a few seconds while **Preparing Watson Studio** project.  New instances of Watson Visual Recognition and Cloud Object Storage will be created.
+- Select **Classify Images** on the **Custom Models** page.
 
-![Watson Studio Select Region screenshot](screenshots/WatsonStudio-PrepareProject-COS.png)
+![Watson Studio Classify Image Custom Model screenshot](screenshots/WatsonStudio-Project-ClassifyImagesCustomModel.png)
 
 You are ready to set up your Project with Watson Visual Recognition. Proceed to the next [step](VISRECO.md)
 
 ***
+<div style="page-break-after: always;"></div>
 
 ## Lab Objectives
 

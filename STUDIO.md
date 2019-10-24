@@ -72,6 +72,10 @@ Projects are your workspace to organize your resources, such as assets like data
 
 ![Cloud Object Storage Service screenshot](screenshots/CloudObjectStorage-Service.png)
 
+- Watson Studio will spin for a few seconds while **Preparing Watson Studio** project.  New instances of Cloud Object Storage will be created.
+
+![Watson Studio Select Region screenshot](screenshots/WatsonStudio-PrepareProject-COS.png)
+
 
 - Click on **Refresh** on the New Project tab.
 - Click on **Create** to create the new project.
@@ -86,30 +90,27 @@ Projects are your workspace to organize your resources, such as assets like data
 
 ![Watson Studio Add Image Classification screenshot](screenshots/WatsonStudio-Project-AddImageClassification.png)
 
-- Select **Classify Images** on the **Custom Models** page.
-
-![Watson Studio Classify Image Custom Model screenshot](screenshots/WatsonStudio-Project-ClassifyImagesCustomModel.png)
-
-
 #### Provision a new Watson Visual Recognition Service instance
+
 - Your project needs to be associated with a Watson Visual Recognition Service instance
 - Click on the **click here** link in the popup to Associate a Watson Visual Recognition service.
 
 ![Watson Studio Associate Watson Visual Recognition screenshot](screenshots/WatsonStudio-Project-AssociateVisualRecognition.png)
 
 #### Create a Watson Visual Recognition Service
+
 - Select the **Lite** plan and note the features
 - Scroll to the bottom and click on the **Create** button
 
 ![Watson Visual Recognition New Service Instance screenshot](screenshots/WatsonStudio-VisualRecognitionServiceInstance.png)
 
-- Select a region for Visual Recognition
+- Review the Region and click on the **Confirm** button on the Confirm Creation dialog.
 
 ![Watson Studio Select Region screenshot](screenshots/WatsonStudio-NewProject-SelectRegion.png)
 
-- Watson Studio will spin for a few seconds while **Preparing Watson Studio** project.  New instances of Watson Visual Recognition and Cloud Object Storage will be created.
+- Select **Classify Images** on the **Custom Models** page.
 
-![Watson Studio Select Region screenshot](screenshots/WatsonStudio-PrepareProject-COS.png)
+![Watson Studio Classify Image Custom Model screenshot](screenshots/WatsonStudio-Project-ClassifyImagesCustomModel.png)
 
 You are ready to set up your Project with Watson Visual Recognition. Proceed to the next [step](VISRECO.md)
 
