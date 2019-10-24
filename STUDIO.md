@@ -72,7 +72,7 @@ Projects are your workspace to organize your resources, such as assets like data
 
 ![Cloud Object Storage Service screenshot](screenshots/CloudObjectStorage-Service.png)
 
-- Watson Studio will spin for a few seconds while **Preparing Watson Studio** project.  New instances of Cloud Object Storage will be created.
+- Watson Studio will spin for a few seconds while **Preparing Watson Studio** project. A new instance of Cloud Object Storage will be created.
 
 ![Watson Studio Select Region screenshot](screenshots/WatsonStudio-PrepareProject-COS.png)
 

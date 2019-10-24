@@ -91,6 +91,7 @@ Watson Studio accelerates the machine and deep learning workflows required to in
   - Click on the Watson Studio instance to open and launch Watson Studio.
 
 <div style="page-break-after: always;"></div>
+
 #### Create a Watson Studio service instance
 - Create a **Watson Studio** service instance from the [IBM Cloud Catalog](https://cloud.ibm.com/catalog/?search=studio)
 - Search on **Studio** in the IBM Cloud Catalog
@@ -125,6 +126,7 @@ Projects are your workspace to organize your resources, such as assets like data
 ![Watson Studio New project screenshot](screenshots/WatsonStudio-NewProject.png)
 
 <div style="page-break-after: always;"></div>
+
 #### Create Cloud Object Storage
 - You will store images and training data in a Cloud Object Storage bucket
 - Select the **Lite** plan and note the features
@@ -134,7 +136,7 @@ Projects are your workspace to organize your resources, such as assets like data
 
 <div style="page-break-after: always;"></div>
 
-- Watson Studio will spin for a few seconds while **Preparing Watson Studio** project.  New instances of Watson Visual Recognition and Cloud Object Storage will be created.
+- Watson Studio will spin for a few seconds while **Preparing Watson Studio** project.  A new instance Cloud Object Storage will be created.
 
 ![Watson Studio Select Region screenshot](screenshots/WatsonStudio-PrepareProject-COS.png)
 
@@ -202,6 +204,7 @@ Projects are your workspace to organize your resources, such as assets like data
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelRename1.png)
 
 <div style="page-break-after: always;"></div>
+
 - Rename the model to **Coffee or Donuts**
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelRename2.png)
@@ -233,7 +236,9 @@ Projects are your workspace to organize your resources, such as assets like data
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelDonutsClass3.png)
 
 <div style="page-break-after: always;"></div>
+
 #### Upload Zip Files to Watson Studio Project
+
 - Three zip files have been prepared which contain coffee and donut images
 - If you are following these steps in an IBM Booth at a conference, these zip files may already be downloaded onto the QuickLab laptop.  
 - If you are following these steps on the web, download the zip files here:
@@ -269,6 +274,7 @@ Projects are your workspace to organize your resources, such as assets like data
 - This custom classifier does not contain a **Negative** zip file.  It is recommended but not required.
 
 <div style="page-break-after: always;"></div>
+
 #### Train your Watson Visual Recognition Custom Classifier
 - Click on the **Train Model** button
 - Wait a few (5-10) minutes for the model to train on the images
@@ -301,6 +307,7 @@ In this lab you will use sample images to confirm your Visual Recognition model.
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelSummary.png)
 
 <div style="page-break-after: always;"></div>
+
 ### Test Watson Visual Recognition Custom Classifier with sample images
 - Visit the [Test Data directory](testdata) and **download** the testdata.zip file.  This zip file contains PNG and JPG images
 - Unlike the training datasets, you will need to **unzip** the images onto your local hard drive
@@ -314,12 +321,15 @@ In this lab you will use sample images to confirm your Visual Recognition model.
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelTestBlank.png)
 
 - The trained custom classifier model will analyze the images
+
 <div style="page-break-after: always;"></div>
+
 - Inspect the **Confidence scores** returned by the Watson Visual Recognition Custom Classifier
 
 ![Watson Studio  screenshot](screenshots/WatsonStudio-VisualRecognitionModelTestResults.png)
 
 <div style="page-break-after: always;"></div>
+
 ### Implement Watson Visual Recognition custom model in your Applications
 - You can incorporate this Watson Visual Recognition Custom Classifier model into your applications using a variety of programming languages - Java, Node, Python, Ruby, Core ML
 - Click on the **Implementation** tab to review the Code snippets
