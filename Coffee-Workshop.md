@@ -20,7 +20,7 @@ After completing this tutorial you will be able to:
 
 This tutorial can be completed using an IBM Cloud Lite account.
 
-* Create an [IBM Cloud account](http://ibm.biz/osseucoffeelab)
+* Create an [IBM Cloud account](http://ibm.biz/devweekcode4coffee)
 * Log into [IBM Cloud](https://cloud.ibm.com/login)
 
 ## Estimated time
@@ -136,7 +136,7 @@ Projects are your workspace to organize your resources, such as assets like data
 
 <div style="page-break-after: always;"></div>
 
-- Watson Studio will spin for a few seconds while **Preparing Watson Studio** project.  A new instance Cloud Object Storage will be created.
+- Watson Studio will spin for a few seconds while **Preparing Watson Studio** project.  A new instance of Cloud Object Storage will be created.
 
 ![Watson Studio Select Region screenshot](screenshots/WatsonStudio-PrepareProject-COS.png)
 
